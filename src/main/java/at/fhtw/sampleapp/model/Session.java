@@ -12,7 +12,7 @@ public class Session {
     // Jackson needs the default constructor
     public Session() {}
 
-    public String getSessionToken() {
+    public String getSessionToken () {
         return sessionToken;
     }
 

@@ -22,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NaJoKa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NaJoKa/MTCG.git",
+    "accountId": "4c9a137d-7d02-4114-bde2-9dd5c79dd4f7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -97,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729858528371</updated>
       <workItem from="1729858529593" duration="3680000" />
-      <workItem from="1729872572454" duration="5239000" />
+      <workItem from="1729872572454" duration="5615000" />
     </task>
     <task id="LOCAL-00001" summary="add session, card, user classes">
       <option name="closed" value="true" />
@@ -107,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729877805292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add session, card, user classes">
+      <option name="closed" value="true" />
+      <created>1729877940692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729877940692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
