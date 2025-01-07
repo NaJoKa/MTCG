@@ -1,4 +1,4 @@
-package at.fhtw.sampleapp.model;
+package at.fhtw.app.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 

@@ -1,6 +1,6 @@
-package at.fhtw.sampleapp.service.session;
+package at.fhtw.app.service.session;
 
-import at.fhtw.sampleapp.model.Session;
+import at.fhtw.app.model.Session;
 import java.util.ArrayList;
 import java.util.List;
 

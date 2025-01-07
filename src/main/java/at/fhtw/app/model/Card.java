@@ -1,4 +1,4 @@
-package at.fhtw.sampleapp.model;
+package at.fhtw.app.model;
 
 public abstract class Card {
     protected String name;

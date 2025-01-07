@@ -10,7 +10,7 @@ public class Router {
 
     public void addService(String route, Service service)
     {
-        this.serviceRegistry.put(route, service);
+         this.serviceRegistry.put(route, service);
     }
 
     public void removeService(String route)

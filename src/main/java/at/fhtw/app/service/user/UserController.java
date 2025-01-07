@@ -1,16 +1,14 @@
-package at.fhtw.sampleapp.service.user;
+package at.fhtw.app.service.user;
 
 import at.fhtw.httpserver.http.ContentType;
 import at.fhtw.httpserver.http.HttpStatus;
 import at.fhtw.httpserver.server.Request;
 import at.fhtw.httpserver.server.Response;
-import at.fhtw.sampleapp.controller.Controller;
-import at.fhtw.sampleapp.model.User;
-import at.fhtw.sampleapp.service.user.UserDummyDAL;
+import at.fhtw.app.controller.Controller;
+import at.fhtw.app.model.User;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import java.util.List;
-import java.util.Collection;
 
 
 public class UserController extends Controller {
@@ -28,12 +26,12 @@ public class UserController extends Controller {
         try {
             User userData = this.userDAL.getUser(username);
             // "[ { \"id\": 1, \"city\": \"Vienna\", \"temperature\": 9.0 }, { ... }, { ... } ]"
-            String weatherDataJSON = this.getObjectMapper().writeValueAsString(userData);
+            String userDataJSON = this.getObjectMapper().writeValueAsString(userData);
 
             return new Response(
                     HttpStatus.OK,
                     ContentType.JSON,
-                    weatherDataJSON
+                    userDataJSON
             );
         } catch (JsonProcessingException e) {
             e.printStackTrace();

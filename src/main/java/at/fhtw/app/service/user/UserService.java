@@ -1,4 +1,4 @@
-package at.fhtw.sampleapp.service.user;
+package at.fhtw.app.service.user;
 
 import at.fhtw.httpserver.http.ContentType;
 import at.fhtw.httpserver.http.HttpStatus;

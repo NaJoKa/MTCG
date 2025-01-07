@@ -1,4 +1,4 @@
-package at.fhtw.sampleapp.service.session;
+package at.fhtw.app.service.session;
 
 import at.fhtw.httpserver.http.ContentType;
 import at.fhtw.httpserver.http.HttpStatus;
@@ -6,7 +6,6 @@ import at.fhtw.httpserver.http.Method;
 import at.fhtw.httpserver.server.Request;
 import at.fhtw.httpserver.server.Response;
 import at.fhtw.httpserver.server.Service;
-import at.fhtw.sampleapp.service.session.SessionController;
 
 
 public class SessionService implements Service {

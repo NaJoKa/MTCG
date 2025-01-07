@@ -1,6 +1,6 @@
-package at.fhtw.sampleapp.service.user;
+package at.fhtw.app.service.user;
 
-import at.fhtw.sampleapp.model.User;
+import at.fhtw.app.model.User;
 import java.util.ArrayList;
 import java.util.List;
 
