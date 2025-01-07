@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3093735-6d27-49a0-8d6b-8e22ccdd0801" name="Changes" comment="add changes to files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b3093735-6d27-49a0-8d6b-8e22ccdd0801" name="Changes" comment="add changes to main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +120,7 @@
       <workItem from="1730724028085" duration="17334000" />
       <workItem from="1732093154960" duration="4202000" />
       <workItem from="1734465200896" duration="9247000" />
-      <workItem from="1735919954879" duration="26312000" />
+      <workItem from="1735919954879" duration="27138000" />
     </task>
     <task id="LOCAL-00001" summary="add session, card, user classes">
       <option name="closed" value="true" />
@@ -181,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736280018554</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add changes to main">
+      <option name="closed" value="true" />
+      <created>1736280161895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736280161895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +224,7 @@
     <MESSAGE value="add battle, battleservice, cardtype and scoreboard" />
     <MESSAGE value="add theory tests" />
     <MESSAGE value="add changes to files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes to files" />
+    <MESSAGE value="add changes to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes to main" />
   </component>
 </project>
