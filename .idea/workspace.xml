@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3093735-6d27-49a0-8d6b-8e22ccdd0801" name="Changes" comment="add protocol - correct version">
+    <list default="true" id="b3093735-6d27-49a0-8d6b-8e22ccdd0801" name="Changes" comment="add changes to files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/httpserver/utils/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/httpserver/utils/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/model/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/model/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/model/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/service/session/SessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/service/session/SessionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/service/session/SessionDummyDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/service/session/SessionDummyDAL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/service/session/SessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/service/session/SessionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/service/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/service/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/service/user/UserDummyDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/service/user/UserDummyDAL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhtw/sampleapp/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/app/service/user/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +37,10 @@
     &quot;accountId&quot;: &quot;4c9a137d-7d02-4114-bde2-9dd5c79dd4f7&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -131,7 +123,7 @@
       <workItem from="1730724028085" duration="17334000" />
       <workItem from="1732093154960" duration="4202000" />
       <workItem from="1734465200896" duration="9247000" />
-      <workItem from="1735919954879" duration="25423000" />
+      <workItem from="1735919954879" duration="26312000" />
     </task>
     <task id="LOCAL-00001" summary="add session, card, user classes">
       <option name="closed" value="true" />
@@ -165,7 +157,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729881747458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add curlscript">
+      <option name="closed" value="true" />
+      <created>1736279969196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736279969196</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add theory tests">
+      <option name="closed" value="true" />
+      <created>1736279999184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736279999184</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add changes to files">
+      <option name="closed" value="true" />
+      <created>1736280018554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736280018554</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +192,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -186,6 +214,11 @@
     <MESSAGE value="add session, card, user classes" />
     <MESSAGE value="add protocol" />
     <MESSAGE value="add protocol - correct version" />
-    <option name="LAST_COMMIT_MESSAGE" value="add protocol - correct version" />
+    <MESSAGE value="add database-files" />
+    <MESSAGE value="add curlscript" />
+    <MESSAGE value="add battle, battleservice, cardtype and scoreboard" />
+    <MESSAGE value="add theory tests" />
+    <MESSAGE value="add changes to files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes to files" />
   </component>
 </project>
